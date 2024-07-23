@@ -192,3 +192,7 @@ CONFIG_CMD_WGET=y
 
 CONFIG_EFI_HTTP_BOOT=y
 CONFIG_CMD_BOOTMENU=y
+
+# Nothing to do with ONELab but it does make other LAVA integrations
+# work better
+CONFIG_LEGACY_IMAGE_FORMAT=y
